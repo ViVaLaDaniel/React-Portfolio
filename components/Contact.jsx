@@ -1,4 +1,7 @@
 import React from "react";
+import { AiOutlineMail } from "react-icons/ai";
+import { BsFillPersonLinesFill } from "react-icons/bs";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 function Contact() {
   return (
@@ -21,6 +24,24 @@ function Contact() {
                 <h2 className="py-2">Name here</h2>
                 <p>Front-End Developer</p>
                 <p className="py-4">I am available for freelance or full-time positions.Contact me and let`s talk</p>
+              </div>
+            </div>
+            <div>
+              <p className=" uppercase pt-8">Connect Whith Me</p>
+              <div className=" flex items-center justify-between">
+                <div className=" rounded-full shadow-lg shadow-gray-400  p-6 cursor-pointer hover:scale-110 ease-in duration-300 ">
+                  <FaLinkedinIn />
+                </div>
+                <div className=" rounded-full shadow-lg shadow-gray-400  p-6 cursor-pointer hover:scale-110 ease-in duration-300 ">
+                  <FaGithub />
+                </div>
+                <div className=" rounded-full shadow-lg shadow-gray-400  p-6 cursor-pointer hover:scale-110 ease-in duration-300 ">
+                  <AiOutlineMail />
+                </div>
+
+                <div className=" rounded-full shadow-lg shadow-gray-400  p-6 cursor-pointer hover:scale-110 ease-in duration-300 ">
+                  <BsFillPersonLinesFill />
+                </div>
               </div>
             </div>
           </div>
