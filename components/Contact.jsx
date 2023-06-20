@@ -6,8 +6,8 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 function Contact() {
-  return (
-    <div className=" w-full lg:h-screen">
+  return  (
+    <div id="contact" className=" w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
         <p className="uppercase  lg:text-4xl md:text-3xl text-2xl tracking-widest text-[#9126b8] font-mono">Contact</p>
         <h2 className=" py-4">Get In Touch</h2>
